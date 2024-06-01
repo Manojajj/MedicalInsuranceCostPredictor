@@ -15,7 +15,7 @@ import joblib
 model = joblib.load('medical_insurance_cost.pkl')
 
 # Title of the app
-st.title("Medical Insurance Cost Prediction")
+st.title("Medical Insurance Cost Prediction - USA")
 
 # Inputs for the user
 age = st.number_input("Age", min_value=0, max_value=100, value=25)
